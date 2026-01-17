@@ -1,4 +1,4 @@
-bekeres = input("Adj meg egy bin sorozatot: ")
+bekeres = input("Give binary numbers: ")
 helyi_ertek = 0
 
 for i in range(len(bekeres)):
@@ -7,4 +7,4 @@ for i in range(len(bekeres)):
     megoldas = 2**len(bekeres[i:-1])
     print(megoldas, "*", bekeres[i])
 
-print(f"Az eredmény: {helyi_ertek}")
+print(f"Result: {helyi_ertek}")
